@@ -19,7 +19,6 @@ import {
 } from '@nestjs/swagger';
 import { User } from './entities/user.entity';
 import { UsersService } from './users.service';
-import { time } from 'console';
 
 @ApiTags('users')
 @Controller('users')
